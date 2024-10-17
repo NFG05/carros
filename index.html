@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury AutoVentas - Reservas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Luxury AutoVentas</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#marcas">Colección</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="hero">
+                <h1>Experiencia de Lujo en Cuatro Ruedas</h1>
+                <p>Descubre la excelencia automotriz en cada detalle</p>
+            </div>
+            <div class="slider-container main-slider">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="pricipal_lambogini.jpg" alt="Carro de lujo 1">
+                        <div class="slide-content">
+                            <h2>Encuentra el auto de tus sueños</h2>
+                            <p>¡Encuentra el auto de tus sueños al alcance de un clic! Nuestra plataforma te ofrece una selección inigualable de vehículos de todas las marcas y estilos, desde compactos eficientes hasta SUV’s familiares y deportivos de alto rendimiento. Tenemos el auto perfecto para cada tipo de conductor.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="pricipal_ferrari.jpg" alt="Carro de lujo 2">
+                        <div class="slide-content">
+                            <h2>Comparar y elegir nunca fue tan fácil</h2>
+                            <p>Con herramientas innovadoras, comparar modelos y revisar especificaciones es más fácil que nunca. Además, ofrecemos ofertas exclusivas que no querrás perderte, todo con la transparencia que necesitas para tomar la mejor decisión.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="pricipal_audi.jpg" alt="Carro de lujo 3">
+                        <div class="slide-content">
+                            <h2>Conduce hacia tu nueva aventura</h2>
+                            <p>Tu nuevo auto te espera. Explora, compara y conduce con confianza sabiendo que estamos aquí para acompañarte en cada paso del camino hacia tu próxima aventura sobre ruedas. ¡Empieza hoy!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+            </div>
+        </section>
+
+        <section id="marcas">
+            <h2>Nuestra Colección Exclusiva</h2>
+            
+            <div class="marca">
+                <h3>lamborghini</h3>
+                <div class="carros">
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="lamborguini1.jpg" alt="Mercedes-Benz S-Class 1">
+                                <img src="lamborguini2.jpg" alt="Mercedes-Benz S-Class 2">
+                                <img src="lamborguini3.jpg" alt="Mercedes-Benz S-Class 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Lamborghini Aventador</h4>
+                            <p class="precio">Desde $110,000</p>
+                            <p class="descripcion">
+                                El Lamborghini Aventador es un superdeportivo icónico que combina un diseño futurista con un rendimiento espectacular. Equipado con un motor V12 de 6.5 litros, produce hasta 770 caballos de fuerza en su versión más avanzada, lo que le permite acelerar de 0 a 100 km/h en tan solo 2.8 segundos y alcanzar una velocidad máxima de 350 km/h. Su chasis de fibra de carbono, puertas de tijera y aerodinámica agresiva lo convierten en una obra maestra de ingeniería y lujo, ideal para los amantes de la velocidad y el estilo inigualable de Lamborghini.</p>
+                            <button class="reservar-btn" data-modelo="Lamborghini Aventador" data-precio="110000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="huracan1.jpg" alt="Mercedes-Benz G-Class 1">
+                                <img src="huracan3.jpg" alt="Mercedes-Benz G-Class 2">
+                                <img src="huracan2.jpg" alt="Mercedes-Benz G-Class 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Lamborghini Huracán</h4>
+                            <p class="precio">Desde $130,000</p>
+                            <p class="descripcion">
+                                El Lamborghini Huracán es un superdeportivo de lujo que combina un diseño agresivo con un rendimiento extraordinario. Equipado con un motor V10 de 5.2 litros, es capaz de generar más de 600 caballos de fuerza, alcanzando una velocidad máxima de alrededor de 325 km/h. Su aceleración es impresionante, logrando ir de 0 a 100 km/h en menos de 3 segundos. Además, el Huracán destaca por su tracción en las cuatro ruedas, avanzada tecnología de conducción y un chasis ligero que optimiza el manejo. Este modelo representa la fusión perfecta entre estilo, potencia y precisión.</p>
+                            <button class="reservar-btn" data-modelo="Lamborghini Huracán" data-precio="130000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="marca">
+                <h3>Ferrari</h3>
+                <div class="carros">
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="Ferrari_F8_Spider_001_0.jpg" alt="BMW 7 Series 1">
+                                <img src="Ferrari_F8_Spider_003_0.jpg" alt="BMW 7 Series 2">
+                                <img src="Ferrari_F8_Spider_008_0.jpg" alt="BMW 7 Series 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Ferrari F8</h4>
+                            <p class="precio">Desde $95,000</p>
+                            <p class="descripcion">
+                                El Ferrari F8 Tributo es un superdeportivo de alto rendimiento que rinde homenaje a la herencia de los motores V8 de la marca italiana. Con un motor V8 biturbo de 3.9 litros, genera 710 caballos de fuerza, lo que le permite acelerar de 0 a 100 km/h en solo 2.9 segundos y alcanzar una velocidad máxima de 340 km/h. Además de su impresionante potencia, el F8 destaca por su diseño aerodinámico avanzado y su manejo preciso, ofreciendo una experiencia de conducción emocionante tanto en carretera como en pista. Es un verdadero símbolo del rendimiento extremo y la elegancia italiana.</p>
+                            <button class="reservar-btn" data-modelo="Ferrari F8" data-precio="95000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="Ferrari_SF90_XX_Spider_01.jpg" alt="BMW X7 1">
+                                <img src="Ferrari_SF90_XX_Spider_04.jpg" alt="BMW X7 2">
+                                <img src="Ferrari_SF90_XX_Spider_08.jpg" alt="BMW X7 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Ferrari SF90</h4>
+                            <p class="precio">Desde $75,000</p>
+                            <p class="descripcion">
+                                El Ferrari SF90 Stradale es el primer híbrido enchufable de producción en serie de Ferrari, combinando un motor V8 biturbo de 4.0 litros con tres motores eléctricos para generar una asombrosa potencia total de 986 caballos de fuerza. Esta configuración le permite acelerar de 0 a 100 km/h en apenas 2.5 segundos y alcanzar una velocidad máxima de 340 km/h. Además de su increíble rendimiento, el SF90 ofrece la capacidad de conducir en modo totalmente eléctrico durante distancias cortas. Con un diseño aerodinámico futurista y tecnología avanzada, este modelo representa un nuevo capítulo en la evolución de Ferrari hacia la electrificación sin comprometer su esencia de superdeportivo extremo.</p>
+                            <button class="reservar-btn" data-modelo="Ferrari SF90" data-precio="75000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="marca">
+                <h3>Audi</h3>
+                <div class="carros">
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="audi1.jpg" alt="Audi A8 1">
+                                <img src="audi2.jpg" alt="Audi A8 2">
+                                <img src="audi3.jpg" alt="Audi A8 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Audi R8</h4>
+                            <p class="precio">Desde $85,000</p>
+                            <p class="descripcion">El Audi R8 es un superdeportivo de lujo que combina rendimiento, estilo y tecnología avanzada. Equipado con un potente motor V10 de 5.2 litros, produce hasta 602 caballos de fuerza en su versión más potente, permitiéndole acelerar de 0 a 100 km/h en solo 3.1 segundos y alcanzar una velocidad máxima de 331 km/h. Su sistema de tracción total Quattro y chasis ligero ofrecen un manejo excepcional, tanto en carretera como en pista. El R8 destaca no solo por su rendimiento, sino también por su refinado diseño interior y su elegante exterior, lo que lo convierte en un ícono de la ingeniería alemana y un favorito entre los entusiastas de los autos de alto rendimiento.
+                            </p>
+                            <button class="reservar-btn" data-modelo="Audi R8" data-precio="85000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                    <article class="carro">
+                        <div class="carro-slider">
+                            <div class="slider">
+                                <img src="auditt1.jpg" alt="Audi e-tron GT 1">
+                                <img src="Audi_TTS_Roadster_02.jpg" alt="Audi e-tron GT 2">
+                                <img src="Audi_TT_RS 3.jpg" alt="Audi e-tron GT 3">
+                            </div>
+                            <button class="slider-btn prev" aria-label="Imagen anterior">&lt;</button>
+                            <button class="slider-btn next" aria-label="Imagen siguiente">&gt;</button>
+                        </div>
+                        <div class="carro-info">
+                            <h4>Audi TT</h4>
+                            <p class="precio">Desde $100,000</p>
+                            <p class="descripcion">El Audi TT es un deportivo compacto que combina diseño elegante, tecnología avanzada y un rendimiento dinámico. Disponible en versiones coupé y roadster, el TT está equipado con un motor turboalimentado de 2.0 litros que genera hasta 306 caballos de fuerza en su versión más potente (TTS). Este motor, junto con la tracción total Quattro y una transmisión automática de doble embrague, le permite acelerar de 0 a 100 km/h en menos de 4.5 segundos. Su diseño distintivo y aerodinámico, junto con un interior minimalista y tecnología de vanguardia, como el Audi Virtual Cockpit, hacen del TT un ícono entre los autos deportivos compactos, ideal para quienes buscan estilo y rendimiento en un solo paquete.</p>
+                            <button class="reservar-btn" data-modelo="Audi TT" data-precio="100000">Reservar Ahora</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto Exclusivo</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Luxury AutoVentas. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="reserva-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Reservar Vehículo</h2>
+            <form id="reserva-form">
+                <div class="form-group">
+                    <label for="nombre-reserva">Nombre completo:</label>
+                    <input type="text" id="nombre-reserva" name="nombre-reserva" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-reserva">Email:</label>
+                    <input type="email" id="email-reserva" name="email-reserva" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono-reserva">Teléfono:</label>
+                    <input type="tel" id="telefono-reserva" name="telefono-reserva" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha-reserva">Fecha de prueba de manejo:</label>
+                    <input type="date" id="fecha-reserva" name="fecha-reserva" required>
+                </div>
+                <div id="reserva-detalles">
+                    <img id="reserva-imagen" src="" alt="Imagen del carro">
+                    <p id="reserva-modelo"></p>
+                    <p id="reserva-precio"></p>
+                </div>
+                <button type="submit">Confirmar Reserva</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
